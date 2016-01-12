@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+	<title>XMLTest</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<script src="javascripts/controllers/mainCtrl.js"></script>
+	<script src="javascripts/directives/fileReader.js"></script>
+	<script src="components/xml2json.js"></script>
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+<body ng-controller="MainCtrl">
+	<p>Hello {{name}}</p>
+	<input type="file" file-reader="fileContent">
+	<div>{{ fileContent }}</div>
+</body>
+</html>

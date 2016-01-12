@@ -1,0 +1,16 @@
+{
+  "name": "XMLTestApp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Kevin Ruan <kjruan@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "dependencies": {
+    "xml2js": "~0.4.15"
+  }
+}
